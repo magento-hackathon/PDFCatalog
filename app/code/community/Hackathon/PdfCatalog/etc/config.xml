@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Hackathon_PdfCatalog>
+            <version>0.1.0</version>
+        </Hackathon_PdfCatalog>
+    </modules>
+    <global>
+        <models>
+            <hackathon_pdfcatalog>
+                <class>Hackathon_PdfCatalog_Model</class>
+                <resourceModel>hackathon_pdfcatalog_resource</resourceModel>
+            </hackathon_pdfcatalog>
+            <hackathon_pdfcatalog_resource>
+                <class>Hackathon_PdfCatalog_Model_Resource</class>
+            </hackathon_pdfcatalog_resource>
+        </models>
+        <blocks>
+            <hackathon_pdfcatalog>
+                <class>Hackathon_PdfCatalog_Block</class>
+            </hackathon_pdfcatalog>
+        </blocks>
+        <helpers>
+            <hackathon_pdfcatalog>
+                <class>Hackathon_PdfCatalog_Helper</class>
+            </hackathon_pdfcatalog>
+        </helpers>
+    </global>
+</config>

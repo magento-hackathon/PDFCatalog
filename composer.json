@@ -1,0 +1,28 @@
+{
+    "name":"magento-hackathon/PDFCatalog",
+    "type":"magento-module",
+    "license":"OSL-3.0",
+    "homepage":"https://github.com/magento-hackathon/PDFCatalog.git",
+    "description":"Magento module that allows customer to obtain printed version of catalog part (category, search results)",
+    "authors":[
+        {
+            "name":"gotgelf"
+        },
+        {
+            "name":"odi-um"
+        },
+        {
+            "name":"psw1986"
+        }
+    ],
+    "require":{
+        "magento-hackathon/magento-composer-installer":"*"
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "map": [
+            ["app/code/community/Hackathon/PdfCatalog", "app/code/community/Hackathon/PdfCatalog"],
+            ["app/etc/modules/Hackathon_PdfCatalog.xml", "app/etc/modules/Hackathon_PdfCatalog.xml"]
+        ]
+    }
+}
